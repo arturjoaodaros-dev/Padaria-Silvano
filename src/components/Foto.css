@@ -1,0 +1,15 @@
+.foto-moldura {
+  width: 100%;
+  background: var(--creme);
+  border-radius: var(--raio);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foto-moldura img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}

@@ -1,0 +1,49 @@
+.produto-card {
+  break-inside: avoid;
+  margin-bottom: 28px;
+  background: var(--branco);
+  border-radius: var(--raio);
+  overflow: hidden;
+  box-shadow: var(--sombra-suave);
+  transition: transform var(--transicao), box-shadow var(--transicao);
+}
+
+.produto-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--sombra-elevada);
+}
+
+.produto-card-corpo {
+  padding: 24px;
+}
+
+.produto-card-corpo h3 {
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+}
+
+.produto-card-corpo p {
+  color: var(--cinza-500);
+  font-size: 0.95rem;
+}
+
+.produto-card-detalhes {
+  margin-top: 10px;
+  color: var(--cinza-700) !important;
+}
+
+.produto-card-link {
+  margin-top: 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--verde-700);
+  font-family: var(--font-titulo);
+  font-weight: 600;
+  transition: gap var(--transicao), color var(--transicao);
+}
+
+.produto-card-link:hover {
+  gap: 10px;
+  color: var(--verde-vivo);
+}

@@ -1,0 +1,42 @@
+:root {
+  /* Verde */
+  --verde-900: #1F3D14;
+  --verde-700: #2F5D1E;
+  --verde-600: #3A7024;
+  --verde-500: #4A7C2C;
+  --verde-vivo: #2FA02F;
+  --verde-100: #EDF4E7;
+
+  /* Neutros */
+  --branco: #FFFFFF;
+  --cinza-900: #2B2B2B;
+  --cinza-700: #4A4A4A;
+  --cinza-500: #6B6B6B;
+  --cinza-200: #E4E4E4;
+  --creme: #FAF7F0;
+
+  /* Acento */
+  --dourado: #D4AF37;
+
+  /* Tipografia */
+  --font-titulo: 'Poppins', 'Segoe UI', system-ui, sans-serif;
+  --font-corpo: 'Inter', 'Segoe UI', system-ui, sans-serif;
+
+  /* Espaçamento */
+  --espaco-secao: 96px;
+  --espaco-secao-mobile: 56px;
+  --margem-desktop: 80px;
+  --margem-tablet: 40px;
+  --margem-mobile: 20px;
+  --padding-interno: 40px;
+
+  /* Efeitos */
+  --transicao: 0.3s ease;
+  --sombra-suave: 0 4px 16px rgba(31, 61, 20, 0.08);
+  --sombra-elevada: 0 12px 32px rgba(31, 61, 20, 0.16);
+  --raio: 14px;
+
+  /* Layout */
+  --largura-maxima: 1200px;
+  --altura-header: 84px;
+}

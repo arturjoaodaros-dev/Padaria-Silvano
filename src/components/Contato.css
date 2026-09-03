@@ -1,0 +1,135 @@
+.contato-grid {
+  display: grid;
+  gap: 48px;
+}
+
+.contato-info {
+  display: grid;
+  gap: 28px;
+}
+
+.contato-info h3 {
+  font-size: 1rem;
+  margin-bottom: 6px;
+  color: var(--verde-900);
+}
+
+.contato-info a,
+.contato-info p {
+  color: var(--cinza-700);
+}
+
+.contato-info a:hover {
+  color: var(--verde-vivo);
+}
+
+.contato-horarios {
+  display: grid;
+  gap: 6px;
+}
+
+.contato-horarios li {
+  display: flex;
+  justify-content: space-between;
+  max-width: 320px;
+  color: var(--cinza-700);
+  font-size: 0.95rem;
+}
+
+.icones-sociais {
+  display: flex;
+  gap: 14px;
+}
+
+.icones-sociais a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--verde-100);
+  color: var(--verde-700);
+  transition: background var(--transicao), color var(--transicao), transform var(--transicao);
+}
+
+.icones-sociais svg {
+  width: 20px;
+  height: 20px;
+}
+
+.icones-sociais a:hover {
+  background: var(--verde-vivo);
+  color: var(--branco);
+  transform: translateY(-2px);
+}
+
+.contato-mapa {
+  width: 100%;
+  height: 220px;
+  border: 0;
+  border-radius: var(--raio);
+  box-shadow: var(--sombra-suave);
+}
+
+.contato-form {
+  display: grid;
+  gap: 20px;
+  align-content: start;
+  background: var(--verde-100);
+  padding: var(--padding-interno);
+  border-radius: var(--raio);
+}
+
+.campo {
+  display: grid;
+  gap: 6px;
+}
+
+.campo label {
+  font-family: var(--font-titulo);
+  font-weight: 600;
+  font-size: 0.92rem;
+  color: var(--verde-900);
+}
+
+.campo input,
+.campo textarea {
+  font-family: var(--font-corpo);
+  font-size: 1rem;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--cinza-200);
+  background: var(--branco);
+  resize: vertical;
+  transition: border-color var(--transicao), box-shadow var(--transicao);
+}
+
+.campo input:focus,
+.campo textarea:focus {
+  outline: none;
+  border-color: var(--verde-vivo);
+  box-shadow: 0 0 0 3px rgba(47, 160, 47, 0.18);
+}
+
+.campo-erro {
+  color: #B3261E;
+  font-size: 0.85rem;
+}
+
+.contato-form .botao {
+  justify-self: start;
+}
+
+.contato-sucesso {
+  color: var(--verde-700);
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+
+@media (min-width: 900px) {
+  .contato-grid {
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 72px;
+  }
+}

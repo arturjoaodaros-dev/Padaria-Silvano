@@ -1,0 +1,20 @@
+.produtos {
+  background: var(--verde-100);
+}
+
+.produtos-grid {
+  columns: 1;
+  column-gap: 28px;
+}
+
+@media (min-width: 640px) {
+  .produtos-grid {
+    columns: 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .produtos-grid {
+    columns: 3;
+  }
+}
